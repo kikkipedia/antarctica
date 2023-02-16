@@ -1,0 +1,177 @@
+.siteTitle {
+    font-family: 'Teko', sans-serif;
+    font-weight: 200;
+    width: 500px;
+    line-height: 0.7;
+    text-align: center;
+    font-size: 125px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subTitle{
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    width: 500px;
+    line-height: 0.5;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.back {
+    cursor: pointer;
+    position: fixed;
+    margin-top: 95px;
+    margin-left: 30px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: url('~@/assets/graphics/back-black.png');
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(242,234,211,1.0);
+    z-index: 2000;
+}
+
+.itemBack {
+    cursor: pointer;
+    position: absolute;
+    margin-top: 68px;
+    margin-left: 30px;
+    height: 50px;
+    width: 50px;
+    background: url('~@/assets/graphics/back.png');
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2000;
+}
+
+@media screen and (max-width: 950px) {
+    .ItemBack {
+        margin-top: 72px;
+        margin-left: 20px;
+        height: 40px;
+        width: 40px;
+        background: url('~@/assets/graphics/back.png');
+        background-size: 30px 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .ItemBack {
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 10%;
+        height: 50px;
+        width: 50px;
+        background: url('~@/assets/graphics/back.png');
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.photoThumb {
+    width: 175px;
+    float: left;
+    margin: 5px;
+    border-radius: 5px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.gallery {
+    background: rgba(128, 125, 114, 0.854);
+    border-radius: 10px;
+    height: 125px;
+    text-align: left;
+}
+.masonry {
+    margin: auto;
+    width: 75%;
+}
+.sectionTitle {
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1.0;
+}
+.documentationArticleSolo {
+    font-size: 16px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#galleries {
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: RGBA(30, 30, 30, 3.0);
+}
+.fancyArrowInv {
+    margin-top: -28px;
+    height: 50px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('~@/assets/graphics/arrow2.png');
+    background-size: 70px 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.videoGallery {
+    background: black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    width: fit-content;
+}
+
+.videoThumb {
+    width: 250px;
+    float: left;
+    margin: 5px;
+    border-radius: 5px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.card {
+    flex: 0 1 24%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    text-align: left;
+}
+.photoPage {
+    color: white;
+    float: left;
+    width: 100%;
+    padding: 20px 0 100px 0;
+    background-color: RGBA(30, 30, 30, 3.0);
+}
